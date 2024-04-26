@@ -1,0 +1,9 @@
+pandas
+numpy
+langchain
+langchain_core
+langchain_groq
+pypdf2
+pinecone-client
+faiss
+faiss-cpu
