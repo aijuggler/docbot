@@ -44,7 +44,7 @@ def main():
             if file_contents is not None:
                 if st.button("Process"):
                     with st.spinner("Processing"):
-                        with tempfile.NamedTemporaryFile(delete=False,dir="data_temp") as temp_file:
+                        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
                             temp_file.write(file_contents)
                             temp_file.seek(0)
                             # get pdf text
